@@ -1,0 +1,211 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+ img{
+
+    max-width: 100%;
+}
+.header{
+
+}
+.header span {
+    display: inline-block;
+    background: #0d6efd;
+    color: #fff;
+    height: 46px;
+    width: 41px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    position: relative;
+    top: 2px;
+}
+.navbar-light .navbar-brand {
+    /* color: #0d6efd; */
+    font-weight: bold;
+    font-size: 24px;
+}
+.header-menu{
+    padding-left: 20px !important;
+padding-right: 20px !important;
+
+}
+
+
+
+/* slider */
+.slider-section{
+    background:url(./img/mbr-10.jpg) no-repeat center center ;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::before{
+    content:"" ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.slider-section h4{
+    font-size: 21px;
+color: #fafafa;
+}
+.slider-section h2{
+    margin-bottom: 20px;
+font-size: 45px;
+}
+.slider-section.form-control{
+    padding: 12px 47px;
+}
+.button{
+    background: #5ba533;
+padding: 9px 20px;
+font-size: 20px;
+}
+.number-counter{
+    background:#ddd;
+}
+.p1{
+    font-size: 28px;
+font-weight: bold;
+}
+.about-section{
+    background:#f7f9ff;
+    padding: 74px;
+}
+.about-section p {
+    font-size: 22px;
+    line-height: 39px;
+}
+.img-sec img {
+    height: 100%;
+    padding: 7px;
+}
+
+.feature-item{
+   height: 300px;
+   box-shadow: 4px 5px 30px 14px #ddd;
+}
+.left-img-sec{
+    width: 40%;
+    overflow: hidden;
+}
+.left-img-sec img{
+    height: 100%;
+width: auto;
+max-width: inherit;
+position: relative;
+left: -80px;
+}
+.left-text-sec {
+    width: 60%;
+    padding: 16px;
+}
+.pt a{
+    display: block;
+    position: relative;
+
+
+}
+.pt a::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:rgba(58, 58, 110,.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: .2s;
+    
+
+
+}
+.pt a:hover::before{
+ opacity: 1;
+ visibility: visible;
+
+}
+.text h1{
+    font-size:50px;
+    font-weight: 100px;
+}
+/* list-item */
+.menu-div{
+    background:#fff;
+    padding: 50px;
+}
+.priceing-item{
+    background: #fff;
+    padding: 50px;
+    box-shadow:2.5px 4.33px 30px 0 rgba(58, 58, 110,.2);
+}
+.priceing-item h1{}
+.priceing-item h5{}
+.priceing-item ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 55px;
+}
+.priceing-item ul li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #777777;
+}
+.priceing-item ul li span {
+    
+    color: #667dea;
+    font-size: 25px;
+    font-weight: bold;
+    width: 40px;
+    
+    display: inline-block;
+}
+.priceing-btn{}
+.priceing-btn a {
+    border-color: #667dea;
+    border-width: 2px;
+    color: #667dea;
+    padding: 10px 21px;
+    font-size: 21px;
+    box-shadow:2.5px 4.33px 30px 0 rgba(58, 58, 110,.2);
+}
+.auther-info img {
+    width: 95px;
+    margin-right: 8px;
+}
+.auther-info {
+    margin: auto;
+    width: 220px;
+}
+.user-data {
+    text-align: left;
+    position: relative;
+    top: 12px;
+}
+.about-item{}
+.about-item .card img {
+    width: 130px;
+    margin-top: -70px;
+    margin-left: 10px;
+}
+.about-item {
+    margin-top: 53px;
+}
+.card-body {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(58, 58, 110,.2);
+    padding-top: 50px;
+}
+.footer1{
+    color:rgb(20, 20, 19);
+    background:#dddd;
+   
+}
